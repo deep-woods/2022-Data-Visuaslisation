@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smiley Face</title>
+        <style>
+            body {
+                margin:0; 
+                overflow: hidden;
+            }
+        </style>
+        <script src="https://unpkg.com/browse/react@17.0.2/umd/react.production.min.js"></script>
+    </head>
+    <body>
+        <script>console.log("Hello JavaScript... I'm seeing you again.")</script>
+        <!-- height /2 - strokeWidth / 2-->
+        <svg width='1000' height="1000">
+            <circle 
+                cx="500" 
+                cy="500" 
+                r="350" 
+                fill="yellow"
+                stroke='black'
+                stroke-width="10"
+            > 
+            </circle>
+
+            <!-- centerX - eyeOffsetX-->
+            <circle 
+                cx="300" 
+                cy="400" 
+                r="50" 
+                stroke='black'
+                stroke-width="10"
+            > 
+            </circle>
+
+            <circle 
+                cx="700" 
+                cy="400" 
+                r="50" 
+                stroke='black'
+                stroke-width="10"
+            > 
+            </circle>
+            
+        </svg>
+    </body>
+</html>
